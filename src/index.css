@@ -214,3 +214,124 @@ width: 14rem;
   align-items: center;
   justify-content: center;
 }
+.dashflex{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.dashlist{
+  width: 25%;
+  background-color:rgb(245, 235, 235);
+  padding: 10px;
+  height: 240px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  justify-content: space-evenly;
+
+}
+.linkdash{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+ 
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.linkdash:hover{
+  background-color: rgb(171, 171, 176);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+ 
+}
+.dashtotals{
+  background-color:rgb(245, 235, 235);
+  width: 60%;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  font-size: 23px;
+  color: black;
+  
+}
+
+.usersdashtbl{
+ width: 98%;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.usersdashtbl th {
+ width: 200px;
+ background-color: rgb(141, 125, 125) !important;
+ color: rgb(92, 92, 92);
+}
+.usersdashtbl td {
+  background-color: rgb(217, 210, 210) !important;
+  
+}
+
+
+
+.usersdashtbl img{
+ width:200px;
+ object-fit:contain;
+ height: auto; 
+ display: block; 
+ margin: 0 auto; 
+}
+.dashheaders{
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 80px;
+  color: maroon;
+  font-size: 30px;
+ 
+}
+.analytics{
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 30px;
+}
+
+.analyticcard1{
+  background-color: rgb(13, 13, 136);
+  height: 200px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+  font-size: 21px;
+  padding: 20px;
+ 
+}
+.analyticcard2{
+  background-color: rgb(136, 13, 23);
+  height: 200px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  text-align: center;
+  font-size: 21px;
+  padding: 20px;
+}
+.analyticcard3{
+  background-color: rgb(222, 93, 12);
+  height: 200px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 21px;
+  padding: 20px;
+}

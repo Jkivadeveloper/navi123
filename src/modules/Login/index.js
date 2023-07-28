@@ -77,7 +77,7 @@ const Login = () => {
 
   const handleLogin = () => {
     if ((email === "navibackend@gmail.com" || email === "adminnavi@gmail.com") && password === "navisoftware2023") {
-      navigate('/order');
+      navigate('/orders');
     } else {
       signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
